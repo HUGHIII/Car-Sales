@@ -9,19 +9,12 @@ import Total from './components/Total';
 const App = () => {
 
 
-  // const removeFeature = item => {
-   
-  // };
-
-  // const buyItem = item => {
-    
-  // };
 
   return (
     <div className="boxes">
       <div className="box">
         <Header  />
-        <AddedFeatures  />
+        {/* <AddedFeatures  /> */}
       </div>
       <div className="box">
         <AdditionalFeatures  />
